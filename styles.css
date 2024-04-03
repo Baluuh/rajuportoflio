@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.nav-item.selected a {
+  color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* Add position relative */
+}
+header {
+    text-align: right;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #333;
+}
+nav ul li a:hover {
+    background-color: orange;
+}
+.nav-item.selected {
+  background-color: orange;
+}
+img {
+    width: 100%;
+    height: auto; /* Remove fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure the image is behind the content */
+    opacity: 0.5; /* Set opacity to 50% */
+}
+.name {
+    position: absolute;
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #f2b27a;
+}
+
+#highlighted-text-container {
+    padding-top: 600px; /* Adjust the value as needed for the desired amount of space */
+}
+
+.text-container {
+    position: relative;
+    margin-top: 200px; /* Adjust margin to leave space for the image */
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-container h2 {
+    margin-top: 0;
+}
+  
+  .icons-container img {
+    display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  }
+  .ftco-section {
+    padding: 100px 0; /* Adjust padding as needed */
+    background-color: #f8f9fa; /* Set background color */
+    color: #000;
+  }
+  
+  .ftco-intro {
+    text-align: center; /* Align content to center */
+  }
+  
+  .ftco-intro h2 {
+    font-size: 36px; /* Set font size */
+    color: #333; /* Set text color */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .ftco-intro h2 span {
+    color: #ffae00; /* Set color for span elements */
+  }
+  
+  .ftco-intro p {
+    font-size: 18px; /* Set font size */
+    line-height: 1.6; /* Set line height */
+    color: #666; /* Set text color */
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+
+  .button-container {
+    text-align: center; /* Center-align the container */
+}
+
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e97d1e; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #ccc; /* Button background color on hover */
+}
+
+  
+  .services-section {
+    padding: 0;
+  }
+  
+  .services-section {
+  padding: 0;
+}
+
+.services {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 80px 25px;
+  background: #3a3939; /* Grey background by default */
+  color: #fff; /* Black text color by default */
+}
+
+@media (max-width: 991.98px) {
+  .services {
+    padding: 10px 0;
+  }
+}
+  @media (min-width: 992px) {
+    .services.active {
+      background: #FFA500;
+      color: #fff; }
+      .services.active h3 {
+        color: #fff; }
+      .services.active .icon span {
+        color: #fff; }
+    .services.active-2 {
+      background: #1e1e1e;
+      color: #000000; } 
+      .services.active-2 .icon span {
+        color: #fff; } }
+      
+  .services:hover,
+  .services:focus {
+    background: #fff; /* Orange background on hover and focus */
+    color: #000; /* Black text color */
+  }
+  
+  .services:hover .icon span,
+  .services:focus .icon span {
+    color: #0000; /* White icon color on hover and focus */
+  }
+
+  .ftco-section.ftco-portfolio {
+    text-align: center; 
+}
+
+ 
